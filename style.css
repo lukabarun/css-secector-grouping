@@ -9,3 +9,24 @@
 /* zadnje dvije list item preko chainig matode color: seagreen; */
 
 /* other item postaviti font-size:0.5rem preko kombinacije kombinatora multiole combiner*/
+
+h1,h2 {
+    color: blueviolet;
+}
+
+div >p {
+    color: firebrick;
+}
+
+ul li {
+    color: blue;
+}
+
+
+li:nth-last-child(-n+2){
+    color: seagreen;
+}
+
+p.done1 {
+    font-size: 0.5em;
+}
